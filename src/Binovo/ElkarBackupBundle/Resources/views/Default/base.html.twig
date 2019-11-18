@@ -8,23 +8,23 @@
     <head>
         <title>{% block title %}ElkarBackup{% endblock %}</title>
         <!-- Dojo 1.8.1-->
-        <link rel="stylesheet" href="js/dojo-release/dijit/themes/claro/claro.css" media="screen" />
+        <link rel="stylesheet" href="/js/dojo-release/dijit/themes/claro/claro.css" media="screen" />
 
         <!-- Bootstrap 3.3-->
-        <link rel="stylesheet" href="css/bootstrap.min.css" media="screen" />
+        <link rel="stylesheet" href="/css/bootstrap.min.css" media="screen" />
 
         <!-- @ChristianGR elkarbackup theme -->
-          <link rel="stylesheet" href="css/elkarbackup.css" media="screen" />
+          <link rel="stylesheet" href="/css/elkarbackup.css" media="screen" />
 
         <!-- jQuery -->
-        <script type="text/javascript" src="js/jquery/jquery-1.12.0.min.js"></script>
+        <script type="text/javascript" src="/js/jquery/jquery-1.12.0.min.js"></script>
 
         <!-- Dojo -->
-        <script type="text/javascript" src="js/dojo-release/dojo/dojo.js" data-dojo-config="async: true"></script>
+        <script type="text/javascript" src="/js/dojo-release/dojo/dojo.js" data-dojo-config="async: true"></script>
 
         <!-- Bootstrap and Elkarbackup js -->
-        <script type="text/javascript" src="js/bootstrap/bootstrap.min.js" ></script>
-        <script type="text/javascript" src="js/base.js"></script>
+        <script type="text/javascript" src="/js/bootstrap/bootstrap.min.js" ></script>
+        <script type="text/javascript" src="/js/base.js"></script>
 	<script type="text/javascript">var context="{{url_prefix}}";</script>
 
     </head>
@@ -35,7 +35,7 @@
             <div class="logo">
                 {% block header %}
                 {% endblock %}
-                <a href="{{path('showClients')}}"><img src="img/elkarbackup.png" alt="ElkarBackup" /></a>
+                <a href="{{path('showClients')}}"><img src="/img/elkarbackup.png" alt="ElkarBackup" /></a>
             </div>
 
 		        <div class="navbar" role="navigation">
