@@ -1,0 +1,10 @@
+Package: elkarbackup
+Version: 1.2.7
+Section: admin
+Priority: optional
+Architecture: all
+Depends: acl, debconf, php5, php5-cli, rsnapshot, mysql-client, php5-mysql, sudo, apache2
+Suggests: autofs5, bzip2, zip, mysql-server, tahoe-lafs
+Maintainer: Xabi Ezpeleta <xezpeleta@gmail.com>
+Description: backup solution with an easy-to-use web interface based on Rsync / RSnapshot
+ ElkarBackup is a free open-source backup solution based on RSync/RSnapshot. It helps to manage centralized backups using a web interface.

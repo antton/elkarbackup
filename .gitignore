@@ -1,0 +1,40 @@
+# Symfony2 default gitignore #
+##############################
+/app/bootstrap.php.cache
+/app/cache/*
+!app/cache/.gitkeep
+#/app/config/parameters.yml
+/app/logs/*
+!app/logs/.gitkeep
+/app/phpunit.xml
+/bin/
+/composer.phar
+/vendor/
+/web/bundles/
+
+# Symfony2 personal gitignore #
+###############################
+/web/js/
+!/web/js/dojo-release
+!/web/js/dojo-release-*
+/web/css/*
+!/web/css/.gitkeep
+!/web/js/bootstrap/.gitkeep
+!/web/js/moment/moment.min.js
+/web/fonts/glyphicons-*
+/app/sessions/*
+
+# Makepackage #
+###############
+.debian
+build
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db

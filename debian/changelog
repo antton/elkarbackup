@@ -1,0 +1,10 @@
+elkarbackup (1.2.7) stable; urgency=medium
+
+  [ Xabi Ezpeleta ]
+  Bugfixes:
+  * Download files without memory limit (#246)
+  * Debug information in prod (#256)
+  * Get job errors from log file (#257 #250 #221)
+
+
+ --  <>  Wed, 20 Dec 2017 19:27:10 +0000
